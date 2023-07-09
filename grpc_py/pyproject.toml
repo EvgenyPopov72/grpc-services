@@ -1,0 +1,14 @@
+[project]
+name = "grpc_hub"
+version = "0.0.1"
+authors = [
+  { name="Evgeny Popov", email="evgeny.popov72@gmail.com" },
+]
+description = "Compiled protobuf for python."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]

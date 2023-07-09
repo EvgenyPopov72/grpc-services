@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+message PingMessage {
+  // Message structure
+  string body = 1;  // Message body
+}
+
+// some SimpleService description
+service SimpleService {
+
+  // Ping rpc description
+  rpc Ping(PingMessage) returns (PingMessage) {};
+}
+
+option go_package = "example.com/project/grpc_hub";
